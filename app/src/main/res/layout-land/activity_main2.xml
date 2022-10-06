@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="729dp"
+        android:layout_height="409dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="249dp"
+            android:layout_height="45dp"
+            android:text="Aplicacion Cire"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="128dp"
+            android:layout_height="41dp"
+            android:text="Jugar"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="142dp"
+            android:layout_height="42dp"
+            android:text="Configurar"
+            tools:layout_editor_absoluteX="444dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="122dp"
+            android:layout_height="45dp"
+            android:text="Acerca de"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="138dp"
+            android:layout_height="45dp"
+            android:text="Salir"
+            tools:layout_editor_absoluteX="448dp"
+            tools:layout_editor_absoluteY="307dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
